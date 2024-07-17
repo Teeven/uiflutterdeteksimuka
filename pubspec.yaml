@@ -1,0 +1,41 @@
+name: flutter_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.0+2
+  tflite: ^1.1.2
+  flutter_svg: ^2.0.10+1
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/vectors/vector_1_x2.svg
+    - assets/vectors/vector_x2.svg
+    - assets/vectors/vector_2_x2.svg
+    - assets/vectors/vector_3_x2.svg
+    - assets/images/images_1.jpeg
+    - assets/vectors/icon_eye_x2.svg
+    - assets/vectors/container_x2.svg
+    - assets/vectors/icon_eye_1_x2.svg
+    - assets/vectors/group_67_x2.svg
+    - assets/vectors/undraw_message_sent_re_q_2_kl_11_x2.svg
+    - assets/vectors/undraw_message_sent_re_q_2_kl_1_x2.svg
+    - assets/model_file.tflite
+    - assets/haarcascade_frontalface_default.xml
+    - assets/labels.txt
